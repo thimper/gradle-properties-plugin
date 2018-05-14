@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #  Gradle.properties has GPG info, and we don't want that checked in.
+=======
+# Gradle.properties has GPG info, and we don't want that checked in.
+>>>>>>> c04a93cf0418732297271164759547f308dfab69
 /gradle.properties
 
 # ignore Idea artifacts

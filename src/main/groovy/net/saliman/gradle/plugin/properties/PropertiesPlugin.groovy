@@ -267,7 +267,10 @@ class PropertiesPlugin implements Plugin<PluginAware> {
 			// files we're currently processing is the root project.
 			def processSystemProperties = (p == project.rootProject)
 			files.add(0, new PropertyFile("${fileDir}/gradle-${envName}.properties", FileType.ENVIRONMENT, processSystemProperties))
+<<<<<<< HEAD
 			files.add(0, new PropertyFile("${fileDir}/gradle.properties", FileType.OPTIONAL, processSystemProperties))
+=======
+>>>>>>> c04a93cf0418732297271164759547f308dfab69
 			files.add(0, new PropertyFile("${p.projectDir}/gradle.properties", FileType.OPTIONAL, processSystemProperties))
 			p = p.parent
 		}
